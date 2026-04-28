@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 # ── CONFIG ────────────────────────────────────────────────
 TOKEN        = os.environ.get("TOKEN", "8616226817:AAHR-JpgZCl5c-6SbJsZoWcmhOONVCi2CaU")
 ADMIN_ID     = int(os.environ.get("ADMIN_ID", "648488426"))
-WEBSITE_BASE = "https://kyjobresearch360.pythonanywhere.com"
+WEBSITE_BASE = "https://job-hire-india-web-production.up.railway.app"
 JSEARCH_KEY  = "2b6a0da0dcmshe4ac8f02a58e471p11e577jsn12b21548bb48"
 JOBS_PER_PAGE = 10
 
