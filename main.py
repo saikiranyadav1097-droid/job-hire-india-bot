@@ -255,8 +255,8 @@ def fetch_live_jobs_from_api(keyword, state):
         url      = "https://jsearch.p.rapidapi.com/search"
         headers  = {"X-RapidAPI-Key": JSEARCH_KEY, "X-RapidAPI-Host": "jsearch.p.rapidapi.com"}
 
-        # Fetch up to 10 pages (each page = 10 jobs = up to 100 jobs)
-        for page in range(1, 11):
+        # Fetch up to 5 pages (each page = 10 jobs = up to 50 jobs, faster!)
+        for page in range(1, 6):
             params = {
                 "query":       f"{keyword} jobs in {state} India",
                 "page":        str(page),
