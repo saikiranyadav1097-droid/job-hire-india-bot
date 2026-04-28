@@ -4,8 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # ── CONFIG ────────────────────────────────────────────────
-TOKEN        = os.environ.get("TOKEN", "8616226817:AAHR-JpgZCl5c-6SbJsZoWcmhOONVCi2CaU
-")
+TOKEN        = os.environ.get("TOKEN", "8616226817:AAHR-JpgZCl5c-6SbJsZoWcmhOONVCi2CaU")
 ADMIN_ID     = int(os.environ.get("ADMIN_ID", "648488426"))
 WEBSITE_BASE = "https://kyjobresearch360.pythonanywhere.com"
 JSEARCH_KEY  = "2b6a0da0dcmshe4ac8f02a58e471p11e577jsn12b21548bb48"
